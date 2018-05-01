@@ -22,7 +22,7 @@ app.use(swagger)
 app.use(upload)
 
 app.listen(PORT, HOST, () => {
-  process.stdout.write(`Server is listening on ${PORT} (${NODE_ENV})\n`)
+  process.stdout.write(`Server is listening on ${HOST}:${PORT} (${NODE_ENV})\n`)
 })
   .on('error', (err) => {
     process.stdout.write(`Error occurred: ${err}\n`)
