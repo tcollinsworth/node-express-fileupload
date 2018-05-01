@@ -10,7 +10,7 @@
     "coverageDetail": "nyc --reporter=html --reporter=text ava",
     "start": "per-env",
     "start:development": "nodemon --exec babel-node index.js",
-    "start:production": "PORT=8080 babel-node index.js",
+    "start:production": "HOST=0.0.0.0 PORT=8181 babel-node index.js",
     "debug": "node --inspect-brk server.js",
     "ava": "ava",
     "lint": "eslint . --ext=js --ignore-pattern '**/__tests__' --ignore-pattern '**/public/api-docs' --ignore-path .gitignore --fix"

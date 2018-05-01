@@ -40,7 +40,7 @@ __Environment Variables__:
 
 - `NODE_ENV` - production or development, default development
 - `HOST` - service bind host, default localhost
-- `PORT` - service bind port, default 3000 (8080 for production)
+- `PORT` - service bind port, default 3000 (8181 for production)
 
 ### Other Scripts
 
