@@ -1,0 +1,23 @@
+logs
+tmp
+*.log
+npm-debug.log*
+
+test-results
+
+node_modules
+.DS_Store
+
+*~
+
+.nyc_output
+uploads
+
+transpiledsrc
+
+.idea
+
+coverage
+
+#build dir
+dist
