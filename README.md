@@ -21,6 +21,12 @@ Start server ( non production environment):
 npm start
 ```
 
+Links
+
+- http://localhost:3000/api-docs
+- http://localhost:3000/swagger.json
+
+
 __Important__: In _production_ `NODE_ENV` MUST be set to `production`
 
 Installs server dependencies and starts it in production mode
@@ -34,7 +40,7 @@ __Environment Variables__:
 
 - `NODE_ENV` - production or development, default development
 - `HOST` - service bind host, default localhost
-- `PORT` - service bind port, default 8001 (8080 for production)
+- `PORT` - service bind port, default 3000 (8080 for production)
 
 ### Other Scripts
 
@@ -49,7 +55,6 @@ Run unit tests in terminal continuously on every change
 ```console
 npm run watchUnit
 ```
-
 
 Run integ tests in terminal continuously on every change
 ```console
